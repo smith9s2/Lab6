@@ -52,6 +52,6 @@ class Tree {
 
   void print() {
     System.out.println();
-    System.out.println("This is a tree" + treeName +". It is a " + treeType " and its leaves are currently " + leafColor ". It " + leavesFall " lose its leaves for the winter");
+    System.out.println("This is a " + treeName +"tree. It is a " + treeType + " and its leaves are currently " + leafColor + ". It " + leavesFall + " lose its leaves for the winter");
   }
 }

@@ -1,5 +1,14 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    Tree tree1 = new Tree();
+    Tree tree2 = new Tree("maple", "broadleaf", true, "red");
+
+    tree1.print();
+    tree2.print();
+
+    tree1.setTreeName("spruce");
+    tree1.setTreeType("connifer");
+
+    tree1.print();
   }
 }
